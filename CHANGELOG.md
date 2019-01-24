@@ -1,3 +1,12 @@
+# 4.0.3
+__fixed__
+- fixed `Block.calculateTarget` to allow for exponents up to 29
+- payments p2sh now takes the network from the redeem attribute if one is not given in the object argument
+- fixed some low priority rarely occurring bugs with multisig payments and `TransactionBuilder` multisig processing
+
+__added__
+- regtest network object to `networks`
+
 # 4.0.2
 __fixed__
 - Fixed `TransactionBuilder` not throwing when payment type validation should fail (#1195)
