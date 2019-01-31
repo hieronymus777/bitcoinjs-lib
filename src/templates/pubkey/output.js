@@ -20,7 +20,7 @@ function encode (pubKey) {
 }
 
 function decode (buffer) {
-  var chunks = bscript.decompile(buffer)
+  const chunks = bscript.decompile(buffer)
   typeforce(check, chunks)
 
   return chunks[0]

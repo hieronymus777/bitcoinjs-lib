@@ -144,7 +144,7 @@ function fixMultisigOrder (input, transaction, vin, isBitcoinCash) {
       // TODO: avoid O(n) hashForSignature
       const parsed = bscript.signature.decode(signature)
 
-      var hash
+      let hash
       if (isBitcoinCash) {
         hash = transaction.hashForCashSignature(vin, input.signScript, input.value, parsed.hashType)
       } else {
