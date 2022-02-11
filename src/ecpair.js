@@ -1,4 +1,4 @@
-const ecc = require('tiny-secp256k1')
+const ecc = require('./tiny-secp256k1')
 const randomBytes = require('randombytes')
 const typeforce = require('typeforce')
 const types = require('./types')

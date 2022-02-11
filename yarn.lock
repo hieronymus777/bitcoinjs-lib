@@ -3202,13 +3202,6 @@ tiny-secp256k1@^1.0.0:
     elliptic "^6.4.0"
     nan "^2.13.2"
 
-tiny-secp256k1@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/tiny-secp256k1/-/tiny-secp256k1-2.2.0.tgz#e1247beba4429113c491070fc6bd48c3bf392c55"
-  integrity sha512-2hPuUGCroLrxh6xxwoe+1RgPpOOK1w2uTnhgiHBpvoutBR+krNuT4hOXQyOaaYnZgoXBB6hBYkuAJHxyeBOPzQ==
-  dependencies:
-    uint8array-tools "0.0.6"
-
 tmp@^0.0.33:
   version "0.0.33"
   resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -3272,11 +3265,6 @@ uglify-js@^3.1.4:
   version "3.15.1"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.15.1.tgz#9403dc6fa5695a6172a91bc983ea39f0f7c9086d"
   integrity sha512-FAGKF12fWdkpvNJZENacOH0e/83eG6JyVQyanIJaBXCN1J11TUQv1T1/z8S+Z0CG0ZPk1nPcreF/c7lrTd0TEQ==
-
-uint8array-tools@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/uint8array-tools/-/uint8array-tools-0.0.6.tgz#821c5c575bbf63fd0703650380bfa3ac11fb2a55"
-  integrity sha512-aIvEHNRX1AlOYAr6qSUjQBn4mCduxx6MtC967aRDTb2UUBPj0Ix2ZFQDcmXUUO/UxRPHcw1f5a5nVbCSKDSOqA==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
