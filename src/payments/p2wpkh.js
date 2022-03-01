@@ -1,7 +1,7 @@
 const lazy = require('./lazy')
 const typef = require('typeforce')
 const OPS = require('bitcoin-ops')
-const ecc = require('../tiny-secp256k1')
+const ecc = require('../vendor/tiny-secp256k1/tiny-secp256k1')
 
 const bcrypto = require('../crypto')
 const bech32 = require('bech32')

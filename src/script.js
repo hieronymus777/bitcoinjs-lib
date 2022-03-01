@@ -1,6 +1,6 @@
 const Buffer = require('safe-buffer').Buffer
 const bip66 = require('bip66')
-const ecc = require('./tiny-secp256k1')
+const ecc = require('./vendor/tiny-secp256k1/tiny-secp256k1')
 const pushdata = require('pushdata-bitcoin')
 const typeforce = require('typeforce')
 const types = require('./types')

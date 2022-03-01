@@ -6,7 +6,7 @@ const proxyquire = require('proxyquire')
 const hoodwink = require('hoodwink')
 
 const ECPair = require('../src/ecpair')
-const tinysecp = require('../src/tiny-secp256k1')
+const tinysecp = require('../src/vendor/tiny-secp256k1/tiny-secp256k1')
 
 const fixtures = require('./fixtures/ecpair.json')
 
